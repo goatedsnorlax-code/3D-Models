@@ -250,8 +250,8 @@ def run(context):
         # ------------------------------------------------ hull sentiment text
         # One string per side. Both share a single scale, so they come out the
         # same size however different their lengths are.
-        HULL_TEXT = {'P': "Days 'Til Disney",      # the display side, with the cubes
-                     'S': "Let's Book a Cruise!"}   # the reverse, with no countdown
+        HULL_TEXT = {'P': "Days 'Til Norway",      # the display side, with the cubes
+                     'S': "P&O Cruises - Iona"}   # the reverse, with no countdown
         hullTextSharedScale = True    # False lets each side fill the hull on its own
         hullTextSides = ('S', 'P')    # which hull sides carry it
         hullTextProud = 0.6           # how far the lettering stands off the hull
